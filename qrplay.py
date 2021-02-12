@@ -51,16 +51,6 @@ from datetime import datetime
 from datetime import timezone
 
 
-class TextColor:
-    BLOGR = str('\033[7;32m')
-    BLUE = str('\033[1;34m')
-    GREEN = str('\033[1;32m')
-    PURPLE = str('\033[1;35m')
-    RED = str('\033[1;31m')
-    RESET = str('\033[0m')
-    YELLOW = str('\033[1;33m')
-
-
 def main():
     parser = argparse.ArgumentParser(description='Generate Various QR codes')
     parser.add_argument('--type',
