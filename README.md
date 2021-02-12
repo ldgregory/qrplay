@@ -14,6 +14,6 @@ Generate QR codes for various actions:
 * Connect to a WiFi SSID
 * Open a Youtube video
 
-qrplay -h to get a list of all the QR code options
+**qrplay.py** -h to get a list of all the QR code options
 
 These have all been tested with iOS 14.4
